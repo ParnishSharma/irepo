@@ -11,13 +11,17 @@
   "dependencies": {
     "@tailwindcss/custom-forms": "^0.2.1",
     "next": "13.4.7",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.10.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2"
-  }
+  },
+  "main": "page.js",
+  "repository": "https://github.com/ParnishSharma/irepo.git",
+  "author": "Parnish Sharma <90691906+ParnishSharma@users.noreply.github.com>",
+  "license": "MIT"
 }

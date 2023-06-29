@@ -19,7 +19,7 @@ export default function Home() {
 
 
 
-
+  <div className="relative z-100">
   <div class="flex justify-center">
     <div class="  p-4  underline ml-60">
 <div className='ml-auto'>
@@ -30,7 +30,7 @@ export default function Home() {
 </div>
     </div>
 
-    <div className=" relative w-[290px] h-[496px] border-4 border-black shadow-2xl shadow-black rounded-[38px]  align-middle z-50 md:shrink-0 sm:shrink-0  ">
+    <div className="relative w-[290px] h-[496px] border-4 border-black shadow-2xl shadow-blue-900 rounded-[38px] align-middle z-40 md:shrink-0 sm:shrink-0">
       <div className="absolute inset-0 bg-white rounded-[34px] z-50 ">
         <p className="text-xl mt-10 ml-3 text-cyan-600 font-semibold">Your Financial Health</p>
 
@@ -40,10 +40,10 @@ export default function Home() {
           <p className="font-3xl font-bold text-blue-200">
             ---- ----{" "}
             <span className="text-orange-500 shadow-orange-900 font-semibold">----</span>{" "}
-            ----
+            ---- ----
           </p>
         </div>
-        <div className="bg-purple-100 mt-5 ml-3 lg:w-[200px] lg:h-[70px] rounded-lg pl-2 z-50 ">
+        <div className="bg-purple-100 mt-5 ml-2 sm:w-[200px] lg:h-[70px] z-50 rounded-lg pl-2 ">
           <p className="text-cyan-600">Percentile Score</p>
           <p className="font-3xl font-bold text-blue-200">
             ---- ---- ---- ----
@@ -80,10 +80,15 @@ export default function Home() {
 
   </div>
 
-</section>
+  <div className="absolute bottom-0 left-0 w-screen h-max z-50">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="60 40 1100 250" className=" text-[#1c3d6d] relative bottom-0 left-0 w-screen h-max">
+      <path fill="#1c3d6d" fillOpacity="1" d="M0,256L40,250.7C80,245,160,235,240,218.7C320,203,400,181,480,192C560,203,640,245,720,224C800,203,880,117,960,122.7C1040,128,1120,224,1200,224C1280,224,1360,128,1400,80L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
+    </svg>
+  </div>
+</div>
 
-<section className="bg-blue-900 w-screen h-88 relative overflow-hidden">
-  <div className="wave bg-blue-900 h-16"></div>
+<div className="bg-[#1c3d6d] w-screen h-88 relative overflow-hidden">
+  <div className="bg-[#1c3d6d] h-16"></div>
   <p className="text-4xl font-bold text-center mt-10">HOW IT WORKS?</p>
   <div className="flex justify-center text-5xl mt-20">
     <FaCopy />----------<FaMobile />------------<FaReadme />
@@ -96,6 +101,7 @@ export default function Home() {
     <button className="rounded-full px-4 py-2 bg-orange-500 text-white font-semibold text-center">
       Get Started
     </button>
+  </div>
   </div>
 </section>
 
