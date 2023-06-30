@@ -23,9 +23,9 @@ export default function Home() {
           <div class="flex justify-center">
             <div class="  p-4  underline ml-60">
               <div className='ml-auto'>
-                <FaCheckSquare className="text-4xl shrink-0   " />
+                <FaCheckSquare className="text-4xl shrink-0  text-white " />
                 <p className="text-lg mr-0 text-white">Expected Retirement Age</p>
-                <FaCheckSquare className="text-4xl bg-transparent" />
+                <FaCheckSquare className="text-4xl text-white" />
                 <p className="text-lg text-white">Identify Mistakes</p>
               </div>
             </div>
@@ -62,10 +62,10 @@ export default function Home() {
 </div>
 
             <div class="flex-shrink-0 w-1/3 p-4 m-2 underline md:shrink-0 sm:shrink-0">
-              <FaCheckSquare className="text-4xl bg-transparent top-0" />
-              <p className="text-lg">Personalized Roadmap</p>
-              <FaCheckSquare className="text-4xl bg-transparent" />
-              <p className="text-lg">Tips To Improve</p>
+              <FaCheckSquare className="text-4xl bg-transparent top-0 text-white" />
+              <p className="text-lg text-white">Personalized Roadmap</p>
+              <FaCheckSquare className="text-4xl bg-transparent text-white" />
+              <p className="text-lg text-white">Tips To Improve</p>
 
 
             </div>
