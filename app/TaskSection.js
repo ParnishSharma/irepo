@@ -72,14 +72,14 @@ const TaskManager = () => {
             <div className='border-3 border-red-600'>
               <button
                 onClick={() => handleTaskDelete(task.id)}
-                className="text-red-500 hover:text-red-600 shadow-lg shadow-red-500 m-5 "
+                className="text-red-500 p-2 rounded-lg hover:text-red-600 shadow-lg shadow-red-500 m-5 "
               >
                 Delete
               </button>
               {!task.completed && (
                 <button
                   onClick={() => handleTaskComplete(task.id)}
-                  className="text-green-500 hover:text-green-600 ml-10 shadow-lg shadow-lime-400"
+                  className="text-green-800 p-2 rounded-lg hover:text-green-600 ml-10 shadow-lg shadow-lime-400"
                 >
                   Complete
                 </button>
